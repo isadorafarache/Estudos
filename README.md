@@ -1,7 +1,7 @@
 # 🥷 Resumos de Estudo de React e TypeScript.
 ## 📋 Este repositório contém meus resumos diários de estudo sobre React e TypeScript.
 
-### 🎉 Bem-vindo ao meu repositório! Aqui você encontrará meus resumos diários de estudo sobre React e TypeScript.
+### 🎉 Bem-vindo ao meu repositório!
 
 -  Este é um espaço onde registro meu aprendizado para ajudar na revisão de conteúdos e para qualquer pessoa interessada em verificar meu nível de conhecimento nessas tecnologias.
 
