@@ -81,7 +81,8 @@ export default function MyComponent() {
 ### 🔵 Challenge 1 of 1: Converter algum HTML para JSX.
 #### Este HTML foi colado em um componente, mas não é JSX válido. Corrija-o:
 
-`export default function Bio() {
+```gist
+// export default function Bio() {
   return (
     <div class="intro">
       <h1>Welcome to my website!</h1>
