@@ -3,7 +3,8 @@
 - Nesse exemplo de código, utilizei React para renderizar perfis de cientistas em um componente Gallery, onde cada cientista é representado pelo componente Profile.
 
 - Abaixo App.js
-`import { getImageUrl } from './utils.js';
+```gist
+// import { getImageUrl } from './utils.js';
 
 function Profile({
   imageId,
@@ -67,23 +68,23 @@ export default function Gallery() {
     </div>
   );
 }`
-
+``` 
 - Abaixo utlis.js
-`export function getImageUrl(imageId, size = 's') {
+export function getImageUrl(imageId, size = 's') {
   return (
     'https://i.imgur.com/' +
     imageId +
     size +
     '.jpg'
   );
-}`
+}
 
 ### 🔵 Challenge 2 of 3: Ajuste o tamanho da imagem com base em uma prop.
 - Reutilização e Configurabilidade: O componente Avatar pode ser facilmente reutilizado em várias partes da aplicação para renderizar avatares com diferentes tamanhos, utilizando dados específicos de cada pessoa através da prop person.
 - Clareza e Manutenção: Separar a lógica de construção da URL da imagem em uma função utilitária (getImageUrl) torna o código mais limpo e facilita a manutenção, garantindo consistência na forma como as URLs das imagens são construídas e utilizadas.
 
 - Abaixo App.js
-`import { getImageUrl } from './utils.js';
+import { getImageUrl } from './utils.js';
 
 function Avatar({ person, size }) {
   let thumbnailSize = 's';
@@ -108,7 +109,7 @@ function Avatar({ person, size }) {
     size +
     '.jpg'
   );
-}`
+}
 
 ### 🔵 Challenge 3 of 3: Passando JSX em uma prop children.
 ### Extraia um componente Card da marcação abaixo, e use a prop children para passar JSX diferente a ele.
@@ -116,7 +117,7 @@ function Avatar({ person, size }) {
 import React from 'react';
 - Dessa forma, o componente Card pode ser reutilizado em qualquer lugar da aplicação para encapsular diferentes tipos de conteúdo em um cartão estilizado de forma consistente.
 
-`function Card({ children }) {
+function Card({ children }) {
   return (
     <div className="card">
       <div className="card-content">
@@ -145,13 +146,13 @@ export default function Profile() {
       </Card>
     </div>
   );
-}`
+}
 
 ### 🔵 Challenge 1 of 3: Mostre um ícone para itens incompletos com `? :`.
 ### Use o operador condicional (cond ? a : b) para renderizar um ❌ se isPacked não for true.
 - Essa abordagem demonstra como utilizar JSX dinâmico e condicional de forma simples e eficaz dentro de componentes React para manipular diferentes estados e propriedades.
 
-`function Item({ name, isPacked }) {
+function Item({ name, isPacked }) {
   return (
     <li className="item">
       {name} {isPacked ? '✔' : '❌'}
@@ -179,7 +180,7 @@ export default function PackingList() {
       </ul>
     </section>
   );
-}`
+}
 
 ### 🔵 Challenge 2 of 3: Mostrar a importância do item com `&&`.
 ### Neste exemplo, cada Item recebe uma prop importance numérica. Use o operador && para renderizar “(Relevância: X)” em itálico, mas apenas para os itens que têm relevância diferente de zero. Sua lista de itens deve ficar assim:
@@ -189,7 +190,7 @@ export default function PackingList() {
 - O operador && permite uma maneira concisa de realizar renderização condicional em JSX, ajudando a mostrar informações adicionais apenas quando necessário.
 - A adição da relevância em itálico ao lado do nome do item (quando aplicável) fornece uma indicação visual rápida da importância de cada item na lista.
 
-`import React from 'react';
+import React from 'react';
 
 function Item({ name, importance }) {
   return (
@@ -220,13 +221,13 @@ export default function PackingList() {
       </ul>
     </section>
   );
-}`
+}
 
 ### 🔵 Challenge 3 of 3: Refatore uma série de `? :` para `if` e variáveis.
 ### Este componente `Drink` usa uma série de condições `? :` para mostrar informações diferentes dependendo se a prop `name` for "tea" ou "coffee". O problema é que as informações sobre cada bebida estão espalhadas em várias condições. Refatore este código para usar uma única declaração `if` em vez de três condições `? :`.
 - Aqui está como poderia ser feito:
 
-`const drinks = {
+const drinks = {
   tea: {
     part: 'folha',
     caffeine: '15–70 mg/xícara',
@@ -263,4 +264,4 @@ export default function DrinkList() {
       <Drink name="coffee" />
     </div>
   );
-}`
+}
