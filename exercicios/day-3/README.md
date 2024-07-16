@@ -1,3 +1,4 @@
+## 📅 15.07.2024
 ### 🔵 Challenge 1 of 3: Extraia um componente.
 ### Este componente Gallery contém marcação bastante similar para os dois perfis. Extraia um componente Profile a partir dele para reduzir a duplicação de código. Você precisará escolher quais props passar para ele.
 - Nesse exemplo de código, utilizei React para renderizar perfis de cientistas em um componente Gallery, onde cada cientista é representado pelo componente Profile.
