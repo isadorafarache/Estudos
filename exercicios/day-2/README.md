@@ -67,7 +67,6 @@ export default function TodoList() {
 
 ### 🔵 Challenge 3 of 3: Escreva uma expressão entre chaves JSX.
 ### No objeto abaixo, o URL completo da imagem é dividido em quatro partes: URL base, imageId, imageSize e extensão do arquivo.
-### Queremos que o URL da imagem combine estes atributos: URL base (sempre 'https://i.imgur.com/'), imageId ('7vQD0fP'), imageSize ('s') e extensão de arquivo (sempre '.jpg'). Entretanto, há algo errado com a forma como a tag `<img>` especifica sua src.
 
 - A correção realizada no código utiliza a forma tradicional de concatenação de strings em JavaScript, onde as variáveis e strings são combinadas usando o operador `+`.
 
