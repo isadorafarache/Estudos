@@ -12,7 +12,8 @@
 ### Mais diversão com objetos JavaScript e chaves:
 - Exploração de como objetos JavaScript podem ser manipulados e renderizados com JSX.
 
-#### [Link do módulo estudado](https://pt-br.react.dev/learn/javascript-in-jsx-with-curly-braces)
+#### Link do módulo estudado:
+- https://pt-br.react.dev/learn/javascript-in-jsx-with-curly-braces
 
 ### Videos assistidos para fixar o conhecimento: 
 #### [JSX (O "HTML" do JavaScript) // Dicionário do Programador](https://www.youtube.com/watch?v=lP8ac9fw72c)
