@@ -46,9 +46,9 @@ export default function Gallery() {
   return (
     <section>
       <h1>Cientistas incríveis</h1>
-      <profile />
-      <profile />
-      <profile />
+      <Profile />
+      <Profile />
+      <Profile />
     </section>
   );
 }
