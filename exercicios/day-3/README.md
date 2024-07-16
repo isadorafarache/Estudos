@@ -69,8 +69,10 @@ export default function Gallery() {
   );
 }`
 ``` 
+
 - Abaixo utlis.js
-export function getImageUrl(imageId, size = 's') {
+```gist
+// export function getImageUrl(imageId, size = 's') {
   return (
     'https://i.imgur.com/' +
     imageId +
@@ -78,6 +80,7 @@ export function getImageUrl(imageId, size = 's') {
     '.jpg'
   );
 }
+```
 
 ### 🔵 Challenge 2 of 3: Ajuste o tamanho da imagem com base em uma prop.
 - Reutilização e Configurabilidade: O componente Avatar pode ser facilmente reutilizado em várias partes da aplicação para renderizar avatares com diferentes tamanhos, utilizando dados específicos de cada pessoa através da prop person.
@@ -101,7 +104,7 @@ function Avatar({ person, size }) {
     />
   );`
   ```
-  
+
 ```gist
 // - Abaixo utils.js
 `export function getImageUrl(person, size) {
