@@ -1,7 +1,7 @@
 ## DAY 3 - REACT E INTRODUÇÃO A TYPESCRIPT
 
 ### Passando Props a um Componente:
-- Em React, props (propriedades) são usadas para passar dados de um componente pai para um componente filho. Isso permite compartilhar informações entre diferentes partes da aplicação de maneira organizada e eficiente
+- Em React, props (propriedades) são usadas para passar dados de um componente pai para um componente filho. Isso permite compartilhar informações entre diferentes partes da aplicação de maneira organizada e eficiente.
 - As props em React são semelhantes aos atributos HTML, como class e id.
 - Em vez de apenas strings simples, as props em React podem conter qualquer valor JavaScript válido, incluindo objetos, arrays e funções.
 - Passar props em React é fundamental para criar componentes reutilizáveis e flexíveis, permitindo uma comunicação eficiente entre diferentes partes da aplicação.
@@ -10,7 +10,7 @@
 ### Renderização Condicional:
 - Você pode usar uma declaração "if" simples para decidir qual conteúdo renderizar com base em uma condição.
 - O operador ternário (?) é uma forma concisa de renderizar um componente se a condição for verdadeira e outro se for falsa.
-<!-- Exemplo de uso: Renderiza `<ComponenteVerdadeiro />` se `cond` for verdadeira; caso contrário, renderiza `<ComponenteFalso />`. -->
+- Exemplo de uso: Renderiza `<ComponenteVerdadeiro />` se `cond` for verdadeira; caso contrário, renderiza `<ComponenteFalso />`.
 - O operador lógico "&&" permite renderizar um componente condicionalmente com base na avaliação de uma expressão. Ele é útil quando você quer renderizar algo apenas se uma condição for verdadeira.
 
 ### Links dos módulos estudados:
