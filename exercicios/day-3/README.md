@@ -86,7 +86,6 @@ export function getImageUrl(imageId, size = 's') {
 - Abaixo App.js
 ```gist
 // import { getImageUrl } from './utils.js';
-
 function Avatar({ person, size }) {
   let thumbnailSize = 's';
   if (size > 90) {
@@ -101,8 +100,10 @@ function Avatar({ person, size }) {
       height={size}
     />
   );`
-
-- Abaixo utils.js
+  ```
+  
+```gist
+// - Abaixo utils.js
 `export function getImageUrl(person, size) {
   return (
     'https://i.imgur.com/' +
@@ -155,6 +156,7 @@ export default function Profile() {
 ### 🔵 Challenge 1 of 3: Mostre um ícone para itens incompletos com `? :`.
 ### Use o operador condicional (cond ? a : b) para renderizar um ❌ se isPacked não for true.
 - Essa abordagem demonstra como utilizar JSX dinâmico e condicional de forma simples e eficaz dentro de componentes React para manipular diferentes estados e propriedades.
+
 ```gist
 // function Item({ name, isPacked }) {
   return (
@@ -189,9 +191,10 @@ export default function PackingList() {
 
 ### 🔵 Challenge 2 of 3: Mostrar a importância do item com `&&`.
 ### Neste exemplo, cada Item recebe uma prop importance numérica. Use o operador && para renderizar “(Relevância: X)” em itálico, mas apenas para os itens que têm relevância diferente de zero. Sua lista de itens deve ficar assim:
-### Traje espacial (Relevância: 9)
-### Capacete com folha dourada
-### Foto de Tam (Relevância: 6)
+- Traje espacial (Relevância: 9)
+- Capacete com folha dourada
+- Foto de Tam (Relevância: 6)
+
 - O operador && permite uma maneira concisa de realizar renderização condicional em JSX, ajudando a mostrar informações adicionais apenas quando necessário.
 - A adição da relevância em itálico ao lado do nome do item (quando aplicável) fornece uma indicação visual rápida da importância de cada item na lista.
 

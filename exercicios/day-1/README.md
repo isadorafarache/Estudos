@@ -3,32 +3,37 @@
 ### 🔵 Challenge 1 of 4: Exportar o componente.
 Eu apenas adicionei o "export default" e o código funcionou.
 
-`export default function Profile() {
+```gist
+// export default function Profile() {
   return (
     <img
       src="https://i.imgur.com/lICfvbD.jpg"
       alt="Aklilu Lemma"
     />
   );
-}`
+}
+```
 
 ### 🔵 Challenge 2 of 4: Corrija a declaração de retorno.
 - Aqui eu removi o ";" que estava no final do atributo alt, adicionei o "()" e coloquei o ";" no final dele.
 
-`export default function Profile() {
+```gist
+// export default function Profile() {
   return (
     <img 
       src="https://i.imgur.com/jA8hHMpm.jpg" 
       alt="Katsuko Saruhashi" 
     />
   );
-}`
+}
+```
 
 ### 🔵 Challenge 3 of 4: Identifique o erro.
 - Os componentes estavam com letras minúsculas `<profile />`, eu modifiquei para `<Profile />`.
 - Isso significa que o nome do componente deve começar com uma letra maiúscula.
 
-`function Profile() {
+```gist
+// function Profile() {
   return (
     <img
       src="https://i.imgur.com/QIrZWGIs.jpg"
@@ -46,13 +51,15 @@ export default function Gallery() {
       <profile />
     </section>
   );
-}`
+}
+```
 
 ### 🔵 Challenge 4 of 4: Seu próprio componente. 
 #### Escreva um componente do zero. Você pode dar a ele qualquer nome válido e retornar qualquer JSX. Se você está sem ideias, você pode escrever um componente Congratulations que mostre `<h1>Bom trabalho!</h1>`. Não se esqueça de exportá-lo!
 - Eu criei dessa forma e meu código funcionou corretamente.
 
-`function Congratulations() {
+```gist
+// function Congratulations() {
   return (
     <h1>Bom trabalho!</h1>
   );
@@ -64,7 +71,8 @@ export default function MyComponent() {
       <Congratulations />
     </div>
   );
-}`
+}
+```
 
 ### 🔵 Challenge 1 of 1: Divida os componentes ainda mais.
 #### Atualmente, Gallery.js exporta Profile e Gallery, o que é um pouco confuso. Mova o componente Profile para seu próprio Profile.js e, em seguida, altere o componente App para renderizar `<Profile />` e `<Gallery />` um após o outro. Você pode usar uma exportação padrão ou nomeada para Profile, mas certifique-se de usar a sintaxe de importação correspondente tanto em App.js e Gallery.js!
@@ -84,7 +92,8 @@ export default function MyComponent() {
       <b>And <i>pictures</b></i> of scientists!
     </p>
   );
-}`
+}
+```
 
 - No JSX, para definir classes CSS, você deve usar className em vez de class. Isso ocorre porque class é uma palavra reservada em JavaScript.
 - As tags `<br>` devem ser fechadas com `/>` em JSX para serem válidas.
@@ -92,7 +101,8 @@ export default function MyComponent() {
 - As tags `<b>` e `<i>` foram fechadas corretamente na ordem correta dentro do JSX.
 - Dessa forma, o código abaixo, corrigo por mim, descreve a maneira correta e válida:
 
-`export default function Bio() {
+```gist
+// export default function Bio() {
   return (
     <>
   <div className="intro">
@@ -109,4 +119,5 @@ export default function MyComponent() {
   </div>
       </>
       );
-}`
+}
+```

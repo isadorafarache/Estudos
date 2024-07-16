@@ -3,7 +3,8 @@
 ### Este código é interrompido com um erro dizendo Objetos não são válidos como um filho React.
 - Corrigido para acessar a propriedade name de person.
 
-`const person = {
+```gist
+// const person = {
   name: 'Gregorio Y. Zara',
   theme: {
     backgroundColor: 'black',
@@ -27,14 +28,16 @@ export default function TodoList() {
       </ul>
     </div>
   );
-}`
+}
+```
 
 ### 🔵 Challenge 2 of 3: Extraia informações para um objeto.
 ### Extraia o URL da imagem para o objeto person.
 - Adicionei a propriedade imageUrl com o URL da imagem
 - Depois usei a propriedade imageUrl no atributo src.
 
-`const person = {
+```gist
+// const person = {
   name: 'Gregorio Y. Zara',
   theme: {
     backgroundColor: 'black',
@@ -59,7 +62,8 @@ export default function TodoList() {
       </ul>
     </div>
   );
-}`
+}
+```
 
 ### 🔵 Challenge 3 of 3: Escreva uma expressão entre chaves JSX.
 ### No objeto abaixo, o URL completo da imagem é dividido em quatro partes: URL base, imageId, imageSize e extensão do arquivo.
@@ -67,7 +71,8 @@ export default function TodoList() {
 
 - A correção realizada no código utiliza a forma tradicional de concatenação de strings em JavaScript, onde as variáveis e strings são combinadas usando o operador `+`.
 
-`const baseUrl = 'https://i.imgur.com/';
+```gist
+// const baseUrl = 'https://i.imgur.com/';
 const person = {
   name: 'Gregorio Y. Zara',
   imageId: '7vQD0fP',
@@ -94,4 +99,5 @@ export default function TodoList() {
       </ul>
     </div>
   );
-}`
+}
+```
