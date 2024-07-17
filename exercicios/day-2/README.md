@@ -1,102 +1,21 @@
-## 📅 13.07.2024
-### 🔵 Challenge 1 of 3: Corrija o erro.
-### Este código é interrompido com um erro dizendo Objetos não são válidos como um filho React.
-- Corrigido para acessar a propriedade name de person.
+## DAY 2 - REACT
 
-```gist
-// const person = {
-  name: 'Gregorio Y. Zara',
-  theme: {
-    backgroundColor: 'black',
-    color: 'pink'
-  }
-};
+### JavaScript em JSX com chaves:
+- Aprender a utilizar chaves permite integrar lógica e variáveis JavaScript diretamente dentro dos componentes JSX.
 
-export default function TodoList() {
-  return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-      />
-      <ul>
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
-  );
-}
-```
+### Passando strings com aspas:
+- Atributos JSX envoltos em aspas são interpretados como strings.
 
-### 🔵 Challenge 2 of 3: Extraia informações para um objeto.
-### Extraia o URL da imagem para o objeto person.
-- Adicionei a propriedade imageUrl com o URL da imagem
-- Depois usei a propriedade imageUrl no atributo src.
+### Uso de chaves duplas:
+- Introdução ao uso de objetos JavaScript e CSS dentro de JSX usando chaves.
 
-```gist
-// const person = {
-  name: 'Gregorio Y. Zara',
-  theme: {
-    backgroundColor: 'black',
-    color: 'pink'
-  },
-  imageUrl: 'https://i.imgur.com/7vQD0fPs.jpg'
-};
+### Mais diversão com objetos JavaScript e chaves:
+- Exploração de como objetos JavaScript podem ser manipulados e renderizados com JSX.
 
-export default function TodoList() {
-  return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar"
-        src={person.imageUrl}
-        alt="Gregorio Y. Zara"
-      />
-      <ul>
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
-  );
-}
-```
+#### Link do módulo estudado:
+- https://pt-br.react.dev/learn/javascript-in-jsx-with-curly-braces
 
-### 🔵 Challenge 3 of 3: Escreva uma expressão entre chaves JSX.
-### No objeto abaixo, o URL completo da imagem é dividido em quatro partes: URL base, imageId, imageSize e extensão do arquivo.
+### Videos assistidos para fixar o conhecimento: 
+#### [JSX (O "HTML" do JavaScript) // Dicionário do Programador](https://www.youtube.com/watch?v=lP8ac9fw72c)
 
-- A correção realizada no código utiliza a forma tradicional de concatenação de strings em JavaScript, onde as variáveis e strings são combinadas usando o operador `+`.
-
-```gist
-// const baseUrl = 'https://i.imgur.com/';
-const person = {
-  name: 'Gregorio Y. Zara',
-  imageId: '7vQD0fP',
-  imageSize: 's',
-  theme: {
-    backgroundColor: 'black',
-    color: 'pink'
-  }
-};
-
-export default function TodoList() {
-  return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
-      <img
-        className="avatar"
-        src={baseUrl + person.imageId + person.imageSize + '.jpg'}
-        alt={person.name}
-      />
-      <ul>
-        <li>Improve the videophone</li>
-        <li>Prepare aeronautics lectures</li>
-        <li>Work on the alcohol-fuelled engine</li>
-      </ul>
-    </div>
-  );
-}
-```
+#### [Curso React: Entendendo o JSX - #03](https://www.youtube.com/watch?v=9iKNxnFJY_Q)

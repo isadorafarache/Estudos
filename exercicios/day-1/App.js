@@ -56,8 +56,8 @@ export default function MyComponent() {
 }
 
 // Challenge 1 of 1: Divida os componentes ainda mais.
-import Gallery from './Gallery.js';
-import Profile from './Profile.js';
+import Gallery from '../../teste1/day-1/Gallery.js';
+import Profile from '../../teste1/day-1/Profile.js';
 
 export default function App() {
   return (
