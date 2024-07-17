@@ -1,6 +1,61 @@
-// Neste arquivo principal, importei tanto o Profile quanto o Gallery e os renderizei dentro do componente App.
-// Essa foi a forma que eu resolvi, seguindo os passos do exercício "Divida os componentes ainda mais":
+// Challenge 1 of 4: Exportar o componente.
+export default function Profile() {
+  return (
+    <img
+      src="https://i.imgur.com/lICfvbD.jpg"
+      alt="Aklilu Lemma"
+    />
+  );
+}
 
+// Challenge 2 of 4: Corrija a declaração de retorno.
+export default function Profile() {
+  return (
+    <img 
+      src="https://i.imgur.com/jA8hHMpm.jpg" 
+      alt="Katsuko Saruhashi" 
+    />
+  );
+}
+
+
+// Challenge 3 of 4: Identifique o erro.
+function Profile() {
+  return (
+    <img
+      src="https://i.imgur.com/QIrZWGIs.jpg"
+      alt="Alan L. Hart"
+    />
+  );
+}
+
+export default function Gallery() {
+  return (
+    <section>
+      <h1>Cientistas incríveis</h1>
+      <Profile />
+      <Profile />
+      <Profile />
+    </section>
+  );
+}
+
+// Challenge 4 of 4: Seu próprio componente. 
+function Congratulations() {
+  return (
+    <h1>Bom trabalho!</h1>
+  );
+}
+
+export default function MyComponent() {
+  return ( 
+    <div>
+      <Congratulations />
+    </div>
+  );
+}
+
+// Challenge 1 of 1: Divida os componentes ainda mais.
 import Gallery from './Gallery.js';
 import Profile from './Profile.js';
 
@@ -13,17 +68,22 @@ export default function App() {
   );
 }
 
-// Aqui eu modifiquei o código, para ficar com uma visualização melhor e mais organizado:
-
-import Gallery from './Gallery.js';
-import Profile from './Profile.js';
-export default function App() {
+// Challenge 1 of 1: Converter algum HTML para JSX.
+export default function Bio() {
   return (
-    <div>
-      <Gallery />
-      <Profile />
-      <Profile />
-      <Profile />
-    </div>
-  );
+    <>
+  <div className="intro">
+    <h1>Welcome to my website!</h1>
+    <p className="summary">
+      You can find my thoughts here.
+      <br />
+      <br />
+      <b>
+        And <i>pictures</i>
+      </b>
+      of scientists!
+    </p>
+  </div>
+      </>
+      );
 }
