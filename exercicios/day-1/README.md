@@ -18,4 +18,3 @@
 - https://pt-br.react.dev/learn/importing-and-exporting-components
 - https://pt-br.react.dev/learn/writing-markup-with-jsx
 - https://www.youtube.com/watch?v=00nfvN2UTZc
-
