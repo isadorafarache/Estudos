@@ -1,4 +1,5 @@
 ## DAY 2 - REACT
+## 📅 13.07.2024
 
 ### JavaScript em JSX com chaves:
 - Aprender a utilizar chaves permite integrar lógica e variáveis JavaScript diretamente dentro dos componentes JSX.

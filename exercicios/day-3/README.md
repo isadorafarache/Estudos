@@ -1,4 +1,5 @@
 ## DAY 3 - REACT E INTRODUÇÃO A TYPESCRIPT
+## 📅 15.07.2024
 
 ### Passando Props a um Componente:
 - Em React, props (propriedades) são usadas para passar dados de um componente pai para um componente filho. Isso permite compartilhar informações entre diferentes partes da aplicação de maneira organizada e eficiente.
