@@ -1,5 +1,5 @@
 // Challenge 1 of 3: Extraia um componente.
-// Abaixo App.js
+// Parte 1 > App.js
 import { getImageUrl } from './utils.js';
 
 function Profile({
@@ -65,7 +65,7 @@ export default function Gallery() {
   );
 }
 
-// Abaixo utlis.js
+// Parte 2 > utlis.js
 export function getImageUrl(imageId, size = 's') {
   return (
     'https://i.imgur.com/' +
