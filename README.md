@@ -8,4 +8,3 @@
 - Para mim, é uma forma de manter meus estudos organizados e acessíveis para consultas futuras.
 
 - Se você é apenas curioso ou está buscando informações sobre React e TypeScript, sinta-se à vontade para explorar. Se encontrar algo útil, considere favoritar este repositório. E se tiver algum comentário ou dica para melhorar, estou aberto(a) a feedback!
-
