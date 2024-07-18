@@ -17,5 +17,5 @@
 - O segundo era pra encontrar a causa do bug e corrigir, o problema era que ambos os perfis estavam usando a mesma variável 'currentPerson'.
 - Por fim, o terceiro, foi apenas para corrigir o código também, no qual, era um efeito colateral do uso que não é recomendado no React, que a função 'push' estava sendo usada diretamente no array 'stories'.
 
-### Link do modulo estudado:
+### Link do módulo estudado:
 https://pt-br.react.dev/learn/keeping-components-pure

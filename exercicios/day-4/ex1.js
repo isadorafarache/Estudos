@@ -89,4 +89,3 @@ export const people = [{
       's.jpg'
     );
   }
-  

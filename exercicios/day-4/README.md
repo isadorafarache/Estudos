@@ -16,4 +16,3 @@
 #### [Curso React: Renderização de listas - #13](https://www.youtube.com/watch?v=yEhuRXccoGE)
 #### [Trabalhando com LISTA em React usando a função MAP - Curso de React - Aula 13](https://www.youtube.com/watch?v=6iJABCS34Jk)
 #### [MINI CURSO REACT JS Renderizando listas #14](hhttps://www.youtube.com/watch?v=yIFbND6m_vw)
-

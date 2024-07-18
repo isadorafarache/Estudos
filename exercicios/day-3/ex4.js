@@ -29,4 +29,3 @@ function Item({ name, isPacked }) {
       </section>
     );
   }
-  
