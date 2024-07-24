@@ -2,7 +2,6 @@
 ## 📅 18.07.2024
 
 ### Mantendo seus Componentes Puros:
-
 - Este princípio é fundamental para garantir o funcionamento consistente e eficiente das aplicações React, proporcionando uma experiência de usuário estável e previsível.
 
 - Manter componentes puros ajuda a garantir que o comportamento da sua aplicação seja previsível e fácil de rastrear. Você sabe exatamente o que esperar de cada componente com base nas suas props ou estado, você promove uma arquitetura mais robusta e menos propensa a erros, melhorando a qualidade e a confiabilidade da aplicação.
